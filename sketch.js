@@ -30,7 +30,7 @@ function setup()
     {
         for(i = 0;i<maxdrops;i++)
         {
-            drops.push(new Drop(random(0,1000),random(0,700));
+            drops.push(new Drop(random(0,1000),random(0,700)));
         }
     }   
 }
