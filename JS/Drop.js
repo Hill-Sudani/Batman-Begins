@@ -5,7 +5,7 @@ class Drop
         this.x = Xpos;
         this.y = Ypos;
         
-        this.body = Bodies.circle(this.x,this.y,5);
+        this.body = Bodies.circle(this.x,this.y,5/2);
         World.add(world,this.body);
     }
 
