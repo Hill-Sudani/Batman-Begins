@@ -5,7 +5,7 @@ class Drop
         this.x = Xpos;
         this.y = Ypos;
         
-        this.body = Bodies.circle(this.x,this.y,25/2);
+        this.body = Bodies.circle(this.x,this.y,5);
         World.add(world,this.body);
     }
 
@@ -20,6 +20,6 @@ class Drop
     display()
     {
         ellipseMode(CENTER);
-        ellipse(this.body.position.x,this.body.position.y,25,25);
+        ellipse(this.body.position.x,this.body.position.y,5,5);
     }
 }
