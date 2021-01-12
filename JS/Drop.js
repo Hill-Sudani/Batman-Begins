@@ -19,6 +19,7 @@ class Drop
 
     display()
     {
+        fill("blue");
         ellipseMode(CENTER);
         ellipse(this.body.position.x,this.body.position.y,5,5);
     }
